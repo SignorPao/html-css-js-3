@@ -18,7 +18,7 @@
     />
 
     <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="assets/css/styles.css" />
@@ -149,9 +149,9 @@
         <h2 class="section__title">CHOOSE YOUR FAVORITE</h2>
 
         <div class="favorite__container">
-          <div class="favorite__swiper">
-            <div>
-              <article class="favorite__article">
+          <div class="favorite__swiper swiper">
+            <div class="swiper-wrapper">
+              <article class="favorite__article swiper-slide">
                 <img
                   src="assets/img/favorite-1.png"
                   alt="image"
@@ -161,7 +161,7 @@
                 <span class="favorite__model">Black Model</span>
               </article>
 
-              <article class="favorite__article">
+              <article class="favorite__article swiper-slide">
                 <img
                   src="assets/img/favorite-2.png"
                   alt="image"
@@ -171,7 +171,7 @@
                 <span class="favorite__model">White Model</span>
               </article>
 
-              <article class="favorite__article">
+              <article class="favorite__article swiper-slide">
                 <img
                   src="assets/img/favorite-3.png"
                   alt="image"
@@ -181,7 +181,7 @@
                 <span class="favorite__model">Red Model</span>
               </article>
 
-              <article class="favorite__article">
+              <article class="favorite__article swiper-slide">
                 <img
                   src="assets/img/favorite-4.png"
                   alt="image"
@@ -196,7 +196,59 @@
       </section>
 
       <!--==================== MODEL ====================-->
-      <section class="model section" id="model"></section>
+      <section class="model section" id="models">
+        <h2 class="section__title">MODEL SPECIFICATIONS</h2>
+
+        <div class="model__container container grid">
+          <div class="model__content">
+            <img
+              src="assets/img/model-img.png"
+              alt="image"
+              class="model__img"
+            />
+
+            <div class="model__tooltip model__tooltip-1">
+              <img
+                src="assets/img/tooltip-right.svg"
+                alt="tooltip"
+                class="model__tooltip-img"
+              />
+              <span class="model__tooltip-text">Best Comfort</span>
+            </div>
+
+            <div class="model__tooltip model__tooltip-2">
+              <img
+                src="assets/img/tooltip-right.svg"
+                alt="tooltip"
+                class="model__tooltip-img"
+              />
+              <span class="model__tooltip-text">Easy Adjustment</span>
+            </div>
+
+            <div class="model__tooltip model__tooltip-3">
+              <img
+                src="assets/img/tooltip-right.svg"
+                alt="tooltip"
+                class="model__tooltip-img"
+              />
+              <span class="model__tooltip-text">Fast Charge</span>
+            </div>
+
+            <div class="model__tooltip model__tooltip-4">
+              <img
+                src="assets/img/tooltip-right.svg"
+                alt="tooltip"
+                class="model__tooltip-img"
+              />
+              <span class="model__tooltip-text">Custom Audio</span>
+            </div>
+          </div>
+
+          <a href="#" class="model__button button">
+            Buy Now <i class="ri-play-circle-fill"></i>
+          </a>
+        </div>
+      </section>
 
       <!--==================== SPONSOR ====================-->
       <section class="sponsor section"></section>
@@ -211,7 +263,7 @@
     <script src=""></script>
 
     <!--=============== SWIPER JS ===============-->
-    <script src=""></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!--=============== MAIN JS ===============-->
     <script src="assets/js/main.js"></script>
