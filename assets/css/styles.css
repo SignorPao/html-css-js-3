@@ -731,11 +731,7 @@ img {
   }
 
   .section {
-    padding-block: 7rem 2rem;
-  }
-
-  .section__title {
-    font-size: var(--h1-font-size);
+    padding-block: 4rem 2rem;
   }
 
   .nav {
@@ -757,7 +753,7 @@ img {
   }
 
   .home__img {
-    width: 500px;
+    width: 450px;
   }
 
   .home__title {
@@ -767,7 +763,7 @@ img {
   }
 
   .home__tooltip {
-    right: 6rem;
+    right: 4rem;
   }
 
   .home__tooltip-img {
@@ -825,7 +821,7 @@ img {
   }
 
   .model__img {
-    width: 500px;
+    width: 400px;
   }
 
   .model__tooltip-img {
@@ -839,8 +835,8 @@ img {
   }
 
   .model__tooltip-1 {
-    top: 7.5rem;
-    left: 8.5rem;
+    top: 6rem;
+    left: 5.5rem;
   }
 
   .model__tooltip-1 .model__tooltip-text {
@@ -849,8 +845,8 @@ img {
 
   .model__tooltip-2 {
     transform: initial;
-    top: 6.5rem;
-    right: -1.5rem;
+    top: 5rem;
+    right: -2rem;
   }
 
   .model__tooltip-2 .model__tooltip-text {
@@ -859,8 +855,8 @@ img {
 
   .model__tooltip-3 {
     transform: scaleX(-1);
-    left: 0;
-    bottom: 6rem;
+    left: -1rem;
+    bottom: 4.5rem;
   }
 
   .model__tooltip-3 .model__tooltip-text {
@@ -868,8 +864,8 @@ img {
   }
 
   .model__tooltip-4 {
-    bottom: 10rem;
-    right: 7rem;
+    bottom: 8rem;
+    right: 4.5rem;
   }
 
   .sponsor__container {
@@ -893,19 +889,61 @@ img {
     width: 380px;
   }
 
-  .footer__social{
+  .footer__social {
     column-gap: 1.5rem;
   }
 
-  .footer__social-link{
+  .footer__social-link {
     font-size: 1.5rem;
   }
 
-  .footer__copy{
+  .footer__copy {
     margin-top: 7.5rem;
   }
 
-  .scrollup{
+  .scrollup {
     right: 3rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .section {
+    padding-block: 8rem 2rem;
+  }
+
+  .section__title {
+    font-size: var(--h1-font-size);
+  }
+
+  .home__img {
+    width: 500px;
+  }
+
+  .home__tooltip {
+    right: 6rem;
+  }
+
+  .model__img {
+    width: 500px;
+  }
+
+  .model__tooltip-1 {
+    top: 7.5rem;
+    left: 8.5rem;
+  }
+
+  .model__tooltip-2 {
+    top: 6.5rem;
+    right: -1.5rem;
+  }
+
+  .model__tooltip-3 {
+    left: 0;
+    bottom: 6rem;
+  }
+
+  .model__tooltip-4 {
+    bottom: 10rem;
+    right: 7rem;
   }
 }
